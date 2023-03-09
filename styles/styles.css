@@ -147,3 +147,6 @@ input{
     margin:.2em;
     display:inline;
 }
+.textocentrado{
+    text-align: center;
+}
