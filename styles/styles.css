@@ -33,6 +33,7 @@ body{
     background-color: #DBEDF9;
     border-radius: 1em;
     padding:.4em 1em;
+    margin:1em;
     color:#4A70DE;
 }
 .redondeado{
@@ -149,4 +150,7 @@ input{
 }
 .textocentrado{
     text-align: center;
+}
+section p{
+    width:50%;
 }
