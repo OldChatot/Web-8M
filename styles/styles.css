@@ -5,8 +5,10 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-.main {
-  padding: 1em 20%;
+header,
+section,
+footer {
+  padding: 1em;
 }
 .flex {
   display: flex;
@@ -59,7 +61,6 @@ header {
   display: flex;
   justify-content: flex-end;
   font-size: 0.8em;
-  padding: 1em 0;
 }
 header span {
   padding: 2em;
@@ -69,11 +70,19 @@ section {
   justify-items: center;
   align-content: space-around;
 }
-section > * {
+section > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
   margin: 0;
+  padding: 0;
 }
-footer {
-  padding: 1em 0;
+header > div,
+footer > div {
+  max-width: 1200px;
+  margin: 0;
+  padding: 0;
 }
 a {
   font-weight: bold;
